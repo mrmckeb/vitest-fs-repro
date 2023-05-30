@@ -1,0 +1,21 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": "./main.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bar": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^0.31.1"
+  }
+}

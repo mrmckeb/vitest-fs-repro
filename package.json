@@ -1,0 +1,12 @@
+{
+  "name": "vitest-fs-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm test -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

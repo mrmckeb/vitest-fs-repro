@@ -1,0 +1,20 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    "./writer": "./main.js",
+    "./writer-dist": "./dist/main.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "cp main.js dist/main.js",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.31.1"
+  }
+}
